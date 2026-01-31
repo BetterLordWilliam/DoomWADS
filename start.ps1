@@ -5,7 +5,7 @@ param(
   [switch]$tmp
 )
 
-. .\env.ps1
+. $PSScriptRoot\env.ps1
 
 if ( $doom ) {
   if ( $tmp ) {
